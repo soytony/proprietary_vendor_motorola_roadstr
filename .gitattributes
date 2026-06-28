@@ -1,0 +1,5 @@
+proprietary/product/priv-app/MotCamera5/MotCamera5.apk filter=lfs diff=lfs merge=lfs -text
+proprietary/vendor/lib64/libarcsoft_tfs_hdr.so filter=lfs diff=lfs merge=lfs -text
+proprietary/vendor/lib64/libarcsoft_tfs_motioncapture.so filter=lfs diff=lfs merge=lfs -text
+proprietary/vendor/lib64/libarcsoft_tfs_portrait_hdr.so filter=lfs diff=lfs merge=lfs -text
+proprietary/vendor/lib64/libarcsoft_tfs_sr.so filter=lfs diff=lfs merge=lfs -text
