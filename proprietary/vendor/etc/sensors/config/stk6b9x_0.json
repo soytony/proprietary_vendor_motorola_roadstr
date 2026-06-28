@@ -1,0 +1,447 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Dragon", "Surf", "RCM", "QRD"],
+    "soc_id": ["519", "536","659", "686"]
+  },
+  "stk6b9x_0":{
+    "owner": "sns_stk6b9x",
+    ".als":{
+      "owner": "sns_stk6b9x",
+      ".config":{
+        "owner": "sns_stk6b9x",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    },
+    ".rgb":{
+      "owner": "sns_stk6b9x",
+      ".config":{
+        "owner": "sns_stk6b9x",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  },
+  "stk6b9x_0_platform":{
+    "owner": "sns_stk6b9x",
+    ".config":{
+      "owner": "sns_stk6b9x",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bus_instance":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "71"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "59"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "3"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "num_rail":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "vdd_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vdd"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vddio"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+      "data": "1"
+      }
+    },
+    ".als":{
+      "owner": "sns_stk6b9x",
+      ".fac_cal":{
+        "owner": "sns_stk6b9x",
+        "scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "bias":{ "type": "flt", "ver": "0",
+          "data": "500.0"
+        },
+        "lux_target":{ "type": "flt", "ver": "0",
+          "data": "500.0"
+        },
+        "c_raw":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "r_raw":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "g_raw":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "b_raw":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "f_raw":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "c_scale":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "r_scale":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "g_scale":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "b_scale":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "f_scale":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        }
+      }
+    },
+    ".rgb":{
+      "owner": "sns_stk6b9x",
+      ".fac_cal":{
+        "owner": "sns_stk6b9x",
+        "c_channel_scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "default_c_channel_scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "r_channel_scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "default_r_channel_scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "g_channel_scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "default_g_channel_scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "b_channel_scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "default_b_channel_scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "f_channel_scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "default_f_channel_scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "rgb_c_target":{ "type": "flt", "ver": "2",
+          "data": "2656.0"
+        },
+        "rgb_r_target":{ "type": "flt", "ver": "2",
+          "data": "55024.0"
+        },
+        "rgb_g_target":{ "type": "flt", "ver": "2",
+          "data": "97312.0"
+        },
+        "rgb_b_target":{ "type": "flt", "ver": "2",
+          "data": "2288.0"
+        },
+        "rgb_f_target":{ "type": "flt", "ver": "2",
+          "data": "2668.0"
+        },
+        "rgb_c_raw":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "rgb_r_raw":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "rgb_g_raw":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "rgb_b_raw":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "rgb_f_raw":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        }
+      }
+    },
+	".flicker":{
+      "owner": "sns_stk6b9x",
+      ".fac_cal":{
+        "owner": "sns_stk6b9x",
+        "scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "bias":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        }
+      }
+    },
+    ".coefficient":{
+      "owner": "sns_stk6b9x",
+      "0":{ "type": "flt", "ver": "0",
+        "data": "0.105404"
+      },
+      "1":{ "type": "flt", "ver": "0",
+        "data": "1.260864"
+      },
+      "2":{ "type": "flt", "ver": "0",
+        "data": "-0.002221"
+      },
+      "3":{ "type": "flt", "ver": "0",
+        "data": "-0.193965"
+      },
+      "4":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "5":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "6":{ "type": "flt", "ver": "0",
+        "data": "1"
+      },
+      "7":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "8":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "9":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "10":{ "type": "flt", "ver": "0",
+        "data": "-0.174145"
+      },
+      "11":{ "type": "flt", "ver": "0",
+        "data": "0.059846"
+      },
+      "12":{ "type": "flt", "ver": "0",
+        "data": "0.009468"
+      },
+      "13":{ "type": "flt", "ver": "0",
+        "data": "0.3221"
+      },
+      "14":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "15":{ "type": "flt", "ver": "0",
+        "data": "0.000838"
+      },
+      "16":{ "type": "flt", "ver": "0",
+        "data": "-0.000071"
+      },
+      "17":{ "type": "flt", "ver": "0",
+        "data": "-0.002453"
+      },
+      "18":{ "type": "flt", "ver": "0",
+        "data": "0.002964"
+      },
+      "19":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "20":{ "type": "flt", "ver": "0",
+        "data": "0.153632"
+      },
+      "21":{ "type": "flt", "ver": "0",
+        "data": "1.017139"
+      },
+      "22":{ "type": "flt", "ver": "0",
+        "data": "-0.169566"
+      },
+      "23":{ "type": "flt", "ver": "0",
+        "data": "-0.064856"
+      },
+      "24":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "25":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "26":{ "type": "flt", "ver": "0",
+        "data": "1"
+      },
+      "27":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "28":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "29":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "30":{ "type": "flt", "ver": "0",
+        "data": "-0.780933"
+      },
+      "31":{ "type": "flt", "ver": "0",
+        "data": "0.713472"
+      },
+      "32":{ "type": "flt", "ver": "0",
+        "data": "0.863775"
+      },
+      "33":{ "type": "flt", "ver": "0",
+        "data": "0.324231"
+      },
+      "34":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "35":{ "type": "flt", "ver": "0",
+        "data": "-0.009731"
+      },
+      "36":{ "type": "flt", "ver": "0",
+        "data": "-0.011191"
+      },
+      "37":{ "type": "flt", "ver": "0",
+        "data": "0.006607"
+      },
+      "38":{ "type": "flt", "ver": "0",
+        "data": "0.016533"
+      },
+      "39":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "40":{ "type": "flt", "ver": "0",
+        "data": "0.282732"
+      },
+      "41":{ "type": "flt", "ver": "0",
+        "data": "0.946684"
+      },
+      "42":{ "type": "flt", "ver": "0",
+        "data": "-0.031064"
+      },
+      "43":{ "type": "flt", "ver": "0",
+        "data": "-0.14582"
+      },
+	  "44":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "45":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "46":{ "type": "flt", "ver": "0",
+        "data": "1"
+      },
+      "47":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "48":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "49":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "50":{ "type": "flt", "ver": "0",
+        "data": "0.011811"
+      },
+      "51":{ "type": "flt", "ver": "0",
+        "data": "0.494406"
+      },
+      "52":{ "type": "flt", "ver": "0",
+        "data": "1.22789"
+      },
+      "53":{ "type": "flt", "ver": "0",
+        "data": "-0.341047"
+      },
+      "54":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "55":{ "type": "flt", "ver": "0",
+        "data": "-0.007454"
+      },
+      "56":{ "type": "flt", "ver": "0",
+        "data": "0.004295"
+      },
+      "57":{ "type": "flt", "ver": "0",
+        "data": "-0.020982"
+      },
+      "58":{ "type": "flt", "ver": "0",
+        "data": "0.021439"
+      },
+      "59":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "60":{ "type": "flt", "ver": "0",
+        "data": "1450"
+      },
+      "61":{ "type": "flt", "ver": "0",
+        "data": "4340"
+      },
+      "62":{ "type": "flt", "ver": "0",
+        "data": "1"
+      },
+      "63":{ "type": "flt", "ver": "0",
+        "data": "0.5"
+      },
+      "64":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "65":{ "type": "flt", "ver": "0",
+        "data": "0.2"
+      },
+      "66":{ "type": "flt", "ver": "0",
+        "data": "1"
+      },
+      "67":{ "type": "flt", "ver": "0",
+        "data": "0.4"
+      },
+      "68":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "69":{ "type": "flt", "ver": "0",
+        "data": "0.3"
+      },
+      "70":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "71":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "72":{ "type": "flt", "ver": "0",
+        "data": "0"
+      },
+      "73":{ "type": "flt", "ver": "0",
+        "data": "0"
+      }
+    }
+  }
+}

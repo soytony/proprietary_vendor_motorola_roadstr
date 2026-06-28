@@ -1,0 +1,8 @@
+on boot
+    start vendor.moto_lpsensing
+
+service vendor.moto_lpsensing /vendor/bin/hw/motorola.hardware.lpsensing-service
+    class hal
+    user system
+    group system
+    disabled

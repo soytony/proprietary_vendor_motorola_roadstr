@@ -1,0 +1,312 @@
+{
+  "config": {
+    "hw_platform": ["MTP", "Surf", "RCM", "QRD"],
+    "soc_id": ["557", "577", "614", "659"]
+  },
+  "stk3bfx_0":{
+    "owner": "sns_stk3bfx",
+    ".ambient_light":{
+      "owner": "sns_stk3bfx",
+      ".config":{
+        "owner": "sns_stk3bfx",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    },
+  ".proximity":{
+      "owner": "sns_stk3bfx",
+      ".config":{
+        "owner": "sns_stk3bfx",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  },
+  "stk3bfx_0_platform":{
+    "owner": "sns_stk3bfx",
+    ".config":{
+      "owner": "sns_stk3bfx",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bus_instance":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "72"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "120"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "3"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "num_rail":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "vdd_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vdd"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vddio"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+      "data": "0"
+      }
+    },
+    ".als":{
+      "owner": "sns_stk3bfx",
+      ".fac_cal":{
+        "owner": "sns_stk3bfx",
+        "target_lux":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "target_ch0":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "target_ch1":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "target_ch2":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "target_ch3":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "ch0_raw":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "ch1_raw":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "ch2_raw":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "ch3_raw":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "fac_ch0_scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "fac_ch1_scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "fac_ch2_scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "fac_ch3_scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "default_ch0_raw":{"type": "flt", "ver": "0",
+          "data": "882.0"
+        },
+        "default_ch1_raw":{"type": "flt", "ver": "0",
+          "data": "927.0"
+        },
+        "default_ch2_raw":{"type": "flt", "ver": "0",
+          "data": "884.0"
+        },
+        "default_ch3_raw":{"type": "flt", "ver": "0",
+          "data": "935.0"
+        }
+      },
+      ".lux_coefs":{
+        "owner": "sns_stk3bfx",
+        "lux_dgf":{ "type": "flt", "ver": "0",
+          "data": "0.001"
+        },
+        "ch0_coef":{ "type": "flt", "ver": "0",
+          "data": "53.65513"
+        },
+        "ch1_coef":{ "type": "flt", "ver": "0",
+          "data": "138.34633"
+        },
+        "ch2_coef":{ "type": "flt", "ver": "0",
+          "data": "21.01069"
+        },
+        "ch3_coef":{ "type": "flt", "ver": "0",
+          "data": "-18.8516"
+        }
+      }
+    },
+    ".rgb":{
+      "owner": "sns_stk3bfx",
+      ".fac_cal":{
+        "owner": "sns_stk3bfx",
+        "r_channel_scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "r_channel_bias":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "g_channel_scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "g_channel_bias":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "b_channel_scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "b_channel_bias":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "color_temp_scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "color_temp_bias":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        }
+      }
+    },
+    ".ps":{
+      "owner": "sns_stk3bfx",
+      ".fac_cal":{
+        "owner": "sns_stk3bfx",
+        "near_threshold":{ "type": "flt", "ver": "0",
+          "data": "9000.0"
+        },
+        "far_threshold":{ "type": "flt", "ver": "0",
+          "data": "8000.0"
+        },
+        "cover":{ "type": "flt", "ver": "0",
+          "data": "3000.0"
+        },
+        "uncover":{ "type": "flt", "ver": "0",
+          "data": "2500.0"
+        },
+        "default_near_threshold":{ "type": "flt", "ver": "0",
+          "data": "4000.0"
+        },
+        "default_far_threshold":{ "type": "flt", "ver": "0",
+          "data": "3700.0"
+        },
+        "default_cover":{ "type": "flt", "ver": "0",
+          "data": "4000.0"
+        },
+        "default_uncover":{ "type": "flt", "ver": "0",
+          "data": "3380.0"
+        },
+        "high_coeff":{ "type": "flt", "ver": "0",
+          "data": "0.95"
+        },
+        "low_coeff":{ "type": "flt", "ver": "0",
+          "data": "0.48"
+        },
+        "prox_thd_increment":{ "type": "flt", "ver": "0",
+          "data": "2000"
+        },
+        "smudge_diff":{ "type": "flt", "ver": "0",
+          "data": "4000"
+        },
+        "smudge_nt":{ "type": "flt", "ver": "0",
+          "data": "200"
+        },
+        "smudge_ft":{ "type": "flt", "ver": "0",
+          "data": "200"
+        }
+      }
+    }
+  },
+  "stk3bfx_0_private":{
+    "owner": "sns_stk3bfx",
+    ".config":{
+      "owner": "sns_stk3bfx",
+      "tf_param_id":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "p_vsync_en":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "p_sync_radio_48":{ "type": "flt", "ver": "0",
+        "data": "36694.0"
+      },
+      "p_sync_radio_60":{ "type": "flt", "ver": "0",
+        "data": "477425.0"
+      },
+      "p_sync_radio_90":{ "type": "flt", "ver": "0",
+        "data": "448994.0"
+      },
+      "p_sync_radio_120":{ "type": "flt", "ver": "0",
+        "data": "434232.0"
+      },
+      "p_sync_radio_144":{ "type": "flt", "ver": "0",
+        "data": "415325.0"
+      },
+      "ps_dgain":{ "type": "int", "ver": "0",
+        "data": "9"
+      },
+      "ps_wait":{ "type": "int", "ver": "0",
+        "data": "4761"
+      },
+      "gpio_set1":{ "type": "int", "ver": "0",
+        "data": "118"
+      },
+      "enable_irdr":{ "type": "int", "ver": "0",
+        "data": "160"
+      },
+      "ps_it1":{ "type": "int", "ver": "0",
+        "data": "4"
+      },
+      "ps_it2":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bgir_set1":{ "type": "int", "ver": "0",
+        "data": "0x2d"
+      },
+      "bgir_set2":{ "type": "int", "ver": "0",
+        "data": "0x0c"
+      },
+      "bgir_thdh":{ "type": "int", "ver": "0",
+        "data": "0x00"
+      },
+      "bgir_thdl":{ "type": "int", "ver": "0",
+        "data": "0x64"
+      },
+      "als_wait":{ "type": "int", "ver": "0",
+        "data": "7143"
+      }
+    }
+  }
+}

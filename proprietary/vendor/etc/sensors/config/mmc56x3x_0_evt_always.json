@@ -1,0 +1,214 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Surf", "RCM", "QRD", "HDK"],
+    "soc_id": ["618", "639","659", "686"],
+    "ro.vendor.hw.revision": ["evt3", "evt2","evt1"]
+  },
+  "mmc56x3x_0":{
+    "owner": "sns_mmc56x3x",
+    ".mag":{
+      "owner": "sns_mmc56x3x",
+      ".config":{
+        "owner": "sns_mmc56x3x",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  },
+  "mmc56x3x_0_platform":{
+    "owner": "sns_mmc56x3x",
+    ".config":{
+      "owner": "sns_mmc56x3x",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bus_instance":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "48"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "num_rail":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vddio"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      }
+    },
+    ".orient":{
+      "owner": "sns_mmc56x3x",
+      "x":{ "type": "str", "ver": "10101010",
+        "data": "-y"
+      },
+      "y":{ "type": "str", "ver": "10101010",
+        "data": "+x"
+      },
+      "z":{ "type": "str", "ver": "0",
+        "data": "+z"
+      }
+    },
+    ".mag":{
+      "owner": "sns_mmc56x3x",
+      ".fac_cal":{
+        "owner": "sns_mmc56x3x",
+        ".corr_mat":{
+          "owner": "sns_mmc56x3x",
+          "0_0":{ "type": "flt", "ver": "10101010",
+            "data": "0.998201"
+          },
+          "0_1":{ "type": "flt", "ver": "10101010",
+            "data": "0.058083"
+          },
+          "0_2":{ "type": "flt", "ver": "10101010",
+            "data": "0.014842"
+          },
+          "1_0":{ "type": "flt", "ver": "10101010",
+            "data": "0.058605"
+          },
+          "1_1":{ "type": "flt", "ver": "10101010",
+            "data": "1.071202"
+          },
+          "1_2":{ "type": "flt", "ver": "10101010",
+            "data": "0.007270"
+          },
+          "2_0":{ "type": "flt", "ver": "10101010",
+            "data": "-0.080209"
+          },
+          "2_1":{ "type": "flt", "ver": "10101010",
+            "data": "-0.023880"
+          },
+          "2_2":{ "type": "flt", "ver": "10101010",
+            "data": "1.195624"
+          }
+        },
+        ".bias":{
+          "owner": "sns_mmc56x3x",
+          "x":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+          "y":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+          "z":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          }
+        }
+      },
+      ".fac_cal_2":{
+        "owner": "sns_mmc56x3x",
+        ".corr_mat":{
+          "owner": "sns_mmc56x3x",
+          "0_0":{ "type": "flt", "ver": "10101010",
+            "data": "0.998201"
+          },
+          "0_1":{ "type": "flt", "ver": "10101010",
+            "data": "0.058083"
+          },
+          "0_2":{ "type": "flt", "ver": "10101010",
+            "data": "0.014842"
+          },
+          "1_0":{ "type": "flt", "ver": "10101010",
+            "data": "0.058605"
+          },
+          "1_1":{ "type": "flt", "ver": "10101010",
+            "data": "1.071202"
+          },
+          "1_2":{ "type": "flt", "ver": "10101010",
+            "data": "0.007270"
+          },
+          "2_0":{ "type": "flt", "ver": "10101010",
+            "data": "-0.080209"
+          },
+          "2_1":{ "type": "flt", "ver": "10101010",
+            "data": "-0.023880"
+          },
+          "2_2":{ "type": "flt", "ver": "10101010",
+            "data": "1.195624"
+          }
+        },
+        ".bias":{
+          "owner": "sns_mmc56x3x",
+          "x":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+          "y":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+          "z":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          }
+        }
+      },
+      ".fac_cal_3":{
+        "owner": "sns_mmc56x3x",
+        ".corr_mat":{
+          "owner": "sns_mmc56x3x",
+          "0_0":{ "type": "flt", "ver": "10101010",
+            "data": "0.998201"
+          },
+          "0_1":{ "type": "flt", "ver": "10101010",
+            "data": "0.058083"
+          },
+          "0_2":{ "type": "flt", "ver": "10101010",
+            "data": "0.014842"
+          },
+          "1_0":{ "type": "flt", "ver": "10101010",
+            "data": "0.058605"
+          },
+          "1_1":{ "type": "flt", "ver": "10101010",
+            "data": "1.071202"
+          },
+          "1_2":{ "type": "flt", "ver": "10101010",
+            "data": "0.007270"
+          },
+          "2_0":{ "type": "flt", "ver": "10101010",
+            "data": "-0.080209"
+          },
+          "2_1":{ "type": "flt", "ver": "10101010",
+            "data": "-0.023880"
+          },
+          "2_2":{ "type": "flt", "ver": "10101010",
+            "data": "1.195624"
+          }
+        },
+        ".bias":{
+          "owner": "sns_mmc56x3x",
+          "x":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+          "y":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+          "z":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          }
+        }
+      }
+    }
+  }
+}
