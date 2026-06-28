@@ -10,6 +10,21 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/roadstr/proprietary/system_ext/etc/init/motorola.hardware.tcmdaidl-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/motorola.hardware.tcmdaidl-service.rc \
     vendor/motorola/roadstr/proprietary/system_ext/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.dolby.daxservice.xml \
     vendor/motorola/roadstr/proprietary/system_ext/etc/permissions/com.motorola.hardware.display_refresh_rate_v3.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.motorola.hardware.display_refresh_rate_v3.xml \
+    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_aec_luma_calc_bm.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_aec_luma_calc_bm.so \
+    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_aec_luma_calculation.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_aec_luma_calculation.so \
+    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_calibverify_TriCamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_calibverify_TriCamera.so \
+    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_calibverify_TriCamera_ctwo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_calibverify_TriCamera_ctwo.so \
+    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_distortion_calibration.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_distortion_calibration.so \
+    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_tricam_calibration.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_tricam_calibration.so \
+    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_tricam_calibration_ctwo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_tricam_calibration_ctwo.so \
+    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_tricam_verification.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_tricam_verification.so \
+    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_tricam_verification_ctwo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_tricam_verification_ctwo.so \
+    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoftbase.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoftbase.so \
+    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoftcalibration_ctwo_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoftcalibration_ctwo_jni.so \
+    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoftcalibration_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoftcalibration_jni.so \
+    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoftdistortion_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoftdistortion_jni.so \
+    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoftdistortionvf_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoftdistortionvf_jni.so \
+    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoftverification_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoftverification_jni.so \
     vendor/motorola/roadstr/proprietary/vendor/etc/HapticsPolicy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/HapticsPolicy.xml \
     vendor/motorola/roadstr/proprietary/vendor/etc/Hapticsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/Hapticsconfig.xml \
     vendor/motorola/roadstr/proprietary/vendor/etc/acdbdata/ffv_models/fai__4.8.14_0.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_4.11.0_enpuv5.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/fai__4.8.14_0.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_4.11.0_enpuv5.pmd \
@@ -311,21 +326,6 @@ PRODUCT_PACKAGES += \
     motorola.hardware.camera.desktop@1.0 \
     motorola.hardware.camera.desktop@2.0 \
     motorola.hardware.tcmd@1.0 \
-    libarcsoft_aec_luma_calc_bm \
-    libarcsoft_aec_luma_calculation \
-    libarcsoft_calibverify_TriCamera \
-    libarcsoft_calibverify_TriCamera_ctwo \
-    libarcsoft_distortion_calibration \
-    libarcsoft_tricam_calibration \
-    libarcsoft_tricam_calibration_ctwo \
-    libarcsoft_tricam_verification \
-    libarcsoft_tricam_verification_ctwo \
-    libarcsoftbase \
-    libarcsoftcalibration_ctwo_jni \
-    libarcsoftcalibration_jni \
-    libarcsoftdistortion_jni \
-    libarcsoftdistortionvf_jni \
-    libarcsoftverification_jni \
     com.motorola.hardware.camera.desktop \
     com.motorola.hardware.display.panel-service.xml \
     motorola.hardware.fdr.service.xml \
