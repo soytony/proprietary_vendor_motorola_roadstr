@@ -6,34 +6,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/roadstr
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/roadstr/proprietary/system_ext/bin/hw/motorola.hardware.tcmdaidl-service:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/hw/motorola.hardware.tcmdaidl-service \
     vendor/motorola/roadstr/proprietary/system_ext/etc/init/motorola.hardware.tcmd@1.0-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/motorola.hardware.tcmd@1.0-service.rc \
     vendor/motorola/roadstr/proprietary/system_ext/etc/init/motorola.hardware.tcmdaidl-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/motorola.hardware.tcmdaidl-service.rc \
     vendor/motorola/roadstr/proprietary/system_ext/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.dolby.daxservice.xml \
     vendor/motorola/roadstr/proprietary/system_ext/etc/permissions/com.motorola.hardware.display_refresh_rate_v3.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.motorola.hardware.display_refresh_rate_v3.xml \
-    vendor/motorola/roadstr/proprietary/system_ext/lib64/libmmiipstreammmihttp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmiipstreammmihttp.so \
-    vendor/motorola/roadstr/proprietary/system_ext/lib64/libmmipstreamnetwork.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmipstreamnetwork.so \
-    vendor/motorola/roadstr/proprietary/system_ext/lib64/libmmipstreamsourcehttp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmipstreamsourcehttp.so \
-    vendor/motorola/roadstr/proprietary/system_ext/lib64/libmmipstreamutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmipstreamutils.so \
-    vendor/motorola/roadstr/proprietary/system_ext/lib64/motorola.hardware.camera.desktop@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/motorola.hardware.camera.desktop@1.0.so \
-    vendor/motorola/roadstr/proprietary/system_ext/lib64/motorola.hardware.camera.desktop@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/motorola.hardware.camera.desktop@2.0.so \
-    vendor/motorola/roadstr/proprietary/system_ext/lib64/motorola.hardware.tcmd@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/motorola.hardware.tcmd@1.0.so \
-    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_aec_luma_calc_bm.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_aec_luma_calc_bm.so \
-    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_aec_luma_calculation.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_aec_luma_calculation.so \
-    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_calibverify_TriCamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_calibverify_TriCamera.so \
-    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_calibverify_TriCamera_ctwo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_calibverify_TriCamera_ctwo.so \
-    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_distortion_calibration.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_distortion_calibration.so \
-    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_tricam_calibration.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_tricam_calibration.so \
-    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_tricam_calibration_ctwo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_tricam_calibration_ctwo.so \
-    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_tricam_verification.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_tricam_verification.so \
-    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_tricam_verification_ctwo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_tricam_verification_ctwo.so \
-    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoftbase.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoftbase.so \
-    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoftcalibration_ctwo_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoftcalibration_ctwo_jni.so \
-    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoftcalibration_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoftcalibration_jni.so \
-    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoftdistortion_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoftdistortion_jni.so \
-    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoftdistortionvf_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoftdistortionvf_jni.so \
-    vendor/motorola/roadstr/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoftverification_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoftverification_jni.so \
-    vendor/motorola/roadstr/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-goodixservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-goodixservice \
     vendor/motorola/roadstr/proprietary/vendor/etc/HapticsPolicy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/HapticsPolicy.xml \
     vendor/motorola/roadstr/proprietary/vendor/etc/Hapticsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/Hapticsconfig.xml \
     vendor/motorola/roadstr/proprietary/vendor/etc/acdbdata/ffv_models/fai__4.8.14_0.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_4.11.0_enpuv5.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/fai__4.8.14_0.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_4.11.0_enpuv5.pmd \
@@ -252,12 +228,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/roadstr/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
     vendor/motorola/roadstr/proprietary/vendor/firmware/st54l_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st54l_fw.bin \
     vendor/motorola/roadstr/proprietary/vendor/firmware/st54l_fw_felica.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st54l_fw_felica.bin \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p128g_s5kgnj_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p128g_s5kgnj_eeprom.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p128g_s5kjns_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p128g_s5kjns_eeprom.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p128g_s5kjns_uw_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p128g_s5kjns_uw_eeprom.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5kgnj.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5kgnj.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5kjns.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5kjns.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5kjns_uw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5kjns_uw.so \
     vendor/motorola/roadstr/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_roadstr_s5kgnj_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_roadstr_s5kgnj_qtech.bin \
     vendor/motorola/roadstr/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_roadstr_s5kjns_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_roadstr_s5kjns_ofilm.bin \
     vendor/motorola/roadstr/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_roadstr_s5kjns_uw_sunny.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_roadstr_s5kjns_uw_sunny.bin \
@@ -265,13 +235,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/roadstr/proprietary/vendor/lib64/camera/com.qti.tuned.mot_roadstr_s5kgnj.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_roadstr_s5kgnj.bin \
     vendor/motorola/roadstr/proprietary/vendor/lib64/camera/com.qti.tuned.mot_roadstr_s5kjns.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_roadstr_s5kjns.bin \
     vendor/motorola/roadstr/proprietary/vendor/lib64/camera/com.qti.tuned.mot_roadstr_s5kjns_uw.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_roadstr_s5kjns_uw.bin \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/camera/components/com.arcsoft.node.dc_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.dc_capture.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/camera/components/com.arcsoft.node.dc_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.dc_preview.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/camera/components/com.vidhance.node.gme.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.vidhance.node.gme.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/camera/components/com.vidhance.node.preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.vidhance.node.preview.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/camera/components/com.vidhance.node.processing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.vidhance.node.processing.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/camera/components/com.vidhance.node.video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.vidhance.node.video.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/camera/components/com.vidhance.node.zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.vidhance.node.zoom.so \
     vendor/motorola/roadstr/proprietary/vendor/lib64/camera/fdconfigoffline.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigoffline.bin \
     vendor/motorola/roadstr/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
     vendor/motorola/roadstr/proprietary/vendor/lib64/camera/fdconfigpreview.mot_s5kgnj.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.mot_s5kgnj.bin \
@@ -284,46 +247,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/roadstr/proprietary/vendor/lib64/camera/fdconfigvideo.mot_s5kjns.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.mot_s5kjns.bin \
     vendor/motorola/roadstr/proprietary/vendor/lib64/camera/fdconfigvideo.mot_s5kjns_uw.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.mot_s5kjns_uw.bin \
     vendor/motorola/roadstr/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/com.motorola.hardware.biometric.fingerprint-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.motorola.hardware.biometric.fingerprint-V2-ndk.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/com.motorola.hardware.display.config-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.motorola.hardware.display.config-V1-ndk.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/com.motorola.hardware.display.panel-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.motorola.hardware.display.panel-V1-ndk.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/com.motorola.hardware.display.panel-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.motorola.hardware.display.panel-V2-ndk.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/com.motorola.hardware.display.panel@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.motorola.hardware.display.panel@1.0.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/com.motorola.hardware.display.touch-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.motorola.hardware.display.touch-V3-ndk.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/com.motorola.hardware.ifaa-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.motorola.hardware.ifaa-V1-ndk.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/hw/fingerprint.goodix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.default.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/libarcsoft_chi_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_chi_utils.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_distortion_correction.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/libarcsoft_portrait_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_portrait_distortion_correction.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/libarcsoft_qnnhtp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_qnnhtp.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/libarcsoft_tf_portrait_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_tf_portrait_distortion_correction.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/libarcsoft_tfs_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_tfs_hdr.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/libarcsoft_tfs_motioncapture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_tfs_motioncapture.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/libarcsoft_tfs_portrait_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_tfs_portrait_hdr.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/libarcsoft_tfs_portrait_sn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_tfs_portrait_sn.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/libarcsoft_tfs_sn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_tfs_sn.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/libarcsoft_tfs_sr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_tfs_sr.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/libarcsoftpostprocservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoftpostprocservice.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/libcodec2_store_dolby.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_store_dolby.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_afd.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/libmot_engine_settings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_engine_settings.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/motorola.hardware.fdr-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.fdr-V1-ndk.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/motorola.hardware.haptic-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.haptic-V2-ndk.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/motorola.hardware.health.aidl-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.health.aidl-V1-ndk.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/motorola.hardware.health.storage.aidl-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.health.storage.aidl-V1-ndk.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/motorola.hardware.health.storage@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.health.storage@1.0.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/motorola.hardware.lpsensing-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.lpsensing-V1-ndk_platform.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/motorola.hardware.power-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.power-V1-ndk_platform.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/motorola.hardware.power-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.power-V2-ndk.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/motorola.hardware.rpmb-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.rpmb-V1-ndk.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/motorola.hardware.sensors-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.sensors-V1-ndk_platform.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/motorola.hardware.sxf-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.sxf-V2-ndk.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/motorola.hardware.tcmdaidl-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.tcmdaidl-V1-ndk.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/motorola.hardware.wireless.wlc-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.wireless.wlc-V1-ndk.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/nfc_nci.st21nfc.st.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci.st21nfc.st.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/vendor.dolby.dms-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.dms-V1-ndk.so \
-    vendor/motorola/roadstr/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0.so \
     vendor/motorola/roadstr/proprietary/vendor/usr/keylayout/goodix_ts.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/goodix_ts.kl \
     vendor/motorola/roadstr/proprietary/system_ext/bin/hw/motorola.hardware.tcmd@1.0-service:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/hw/motorola.hardware.tcmd@1.0-service \
     vendor/motorola/roadstr/proprietary/vendor/bin/hw/android.hardware.biometrics.face-service.face-isv:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.face-service.face-isv \
@@ -359,3 +282,82 @@ PRODUCT_PACKAGES += \
     vendor.motorola.hardware.sxf.service.xml \
     motorola.hardware.tcmd@1.0-service.xml \
     motorola.hardware.tcmdaidl-service.xml \
+
+PRODUCT_PACKAGES += \
+    libcodec2_store_dolby \
+    vendor.dolby.dms-V1-ndk \
+    vendor.dolby.hardware.dms@2.0 \
+    com.mot.eeprom.mot_gt24p128g_s5kgnj_eeprom \
+    com.mot.eeprom.mot_gt24p128g_s5kjns_eeprom \
+    com.mot.eeprom.mot_gt24p128g_s5kjns_uw_eeprom \
+    com.qti.sensor.mot_s5kgnj \
+    com.qti.sensor.mot_s5kjns \
+    com.qti.sensor.mot_s5kjns_uw \
+    com.arcsoft.node.dc_capture \
+    com.arcsoft.node.dc_preview \
+    com.vidhance.node.gme \
+    com.vidhance.node.preview \
+    com.vidhance.node.processing \
+    com.vidhance.node.video \
+    com.vidhance.node.zoom \
+    libarcsoft_chi_utils \
+    com.motorola.hardware.display.config-V1-ndk \
+    com.motorola.hardware.display.panel-V1-ndk \
+    com.motorola.hardware.display.panel-V2-ndk \
+    com.motorola.hardware.display.panel@1.0 \
+    com.motorola.hardware.display.touch-V3-ndk \
+    fingerprint.goodix.default \
+    com.motorola.hardware.ifaa-V1-ndk \
+    motorola.hardware.sensors-V1-ndk_platform \
+    libarcsoft_aec_luma_calc_bm \
+    libarcsoft_aec_luma_calculation \
+    libarcsoft_calibverify_TriCamera \
+    libarcsoft_calibverify_TriCamera_ctwo \
+    libarcsoft_distortion_calibration \
+    libarcsoft_tricam_calibration \
+    libarcsoft_tricam_calibration_ctwo \
+    libarcsoft_tricam_verification \
+    libarcsoft_tricam_verification_ctwo \
+    libarcsoftbase \
+    libarcsoftcalibration_ctwo_jni \
+    libarcsoftcalibration_jni \
+    libarcsoftdistortion_jni \
+    libarcsoftdistortionvf_jni \
+    libarcsoftverification_jni \
+    motorola.hardware.tcmdaidl-service \
+    libmmiipstreammmihttp \
+    libmmipstreamnetwork \
+    libmmipstreamsourcehttp \
+    libmmipstreamutils \
+    motorola.hardware.camera.desktop@1.0 \
+    motorola.hardware.camera.desktop@2.0 \
+    motorola.hardware.tcmd@1.0 \
+    android.hardware.biometrics.fingerprint@2.1-goodixservice \
+    com.motorola.hardware.biometric.fingerprint-V2-ndk \
+    libarcsoft_distortion_correction \
+    libarcsoft_portrait_distortion_correction \
+    libarcsoft_qnnhtp \
+    libarcsoft_tf_portrait_distortion_correction \
+    libarcsoft_tfs_hdr \
+    libarcsoft_tfs_motioncapture \
+    libarcsoft_tfs_portrait_hdr \
+    libarcsoft_tfs_portrait_sn \
+    libarcsoft_tfs_sn \
+    libarcsoft_tfs_sr \
+    libarcsoftpostprocservice \
+    libmot_afd \
+    libmot_engine_settings \
+    libvidhance \
+    motorola.hardware.fdr-V1-ndk \
+    motorola.hardware.haptic-V2-ndk \
+    motorola.hardware.health.aidl-V1-ndk \
+    motorola.hardware.health.storage.aidl-V1-ndk \
+    motorola.hardware.health.storage@1.0 \
+    motorola.hardware.lpsensing-V1-ndk_platform \
+    motorola.hardware.power-V1-ndk_platform \
+    motorola.hardware.power-V2-ndk \
+    motorola.hardware.rpmb-V1-ndk \
+    motorola.hardware.sxf-V2-ndk \
+    motorola.hardware.tcmdaidl-V1-ndk \
+    motorola.hardware.wireless.wlc-V1-ndk \
+    nfc_nci.st21nfc.st \
