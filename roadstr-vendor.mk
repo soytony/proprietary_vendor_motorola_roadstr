@@ -6,6 +6,21 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/roadstr
 
 PRODUCT_COPY_FILES += \
+    vendor/motorola/roadstr/proprietary/product/etc/MotoDesktopAppConfig/com.motorola.camera5.desktop-config.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/MotoDesktopAppConfig/com.motorola.camera5.desktop-config.xml \
+    vendor/motorola/roadstr/proprietary/product/etc/init/init.motcamera5.lens.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.motcamera5.lens.rc \
+    vendor/motorola/roadstr/proprietary/product/etc/permissions/com.motorola.camera5.adobe_scan.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera5.adobe_scan.xml \
+    vendor/motorola/roadstr/proprietary/product/etc/permissions/com.motorola.camera5.lens.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera5.lens.xml \
+    vendor/motorola/roadstr/proprietary/product/etc/permissions/com.motorola.camera5.roadstr.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera5.roadstr.xml \
+    vendor/motorola/roadstr/proprietary/product/etc/permissions/com.motorola.camera5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera5.xml \
+    vendor/motorola/roadstr/proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/deviceowner-configuration-com.motorola.camera5.xml \
+    vendor/motorola/roadstr/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera5.xml \
+    vendor/motorola/roadstr/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera5.xml \
+    vendor/motorola/roadstr/proprietary/product/etc/sysconfig/initial-package-stopped-states-com.motorola.camera5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/initial-package-stopped-states-com.motorola.camera5.xml \
+    vendor/motorola/roadstr/proprietary/product/media/audio/ui/camera_click.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/camera_click.ogg \
+    vendor/motorola/roadstr/proprietary/product/media/audio/ui/camera_focus.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/camera_focus.ogg \
+    vendor/motorola/roadstr/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
+    vendor/motorola/roadstr/proprietary/system/etc/permissions/moto-core_services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-core_services.xml \
+    vendor/motorola/roadstr/proprietary/system/etc/permissions/moto-settings.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-settings.xml \
     vendor/motorola/roadstr/proprietary/system_ext/etc/init/motorola.hardware.tcmd@1.0-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/motorola.hardware.tcmd@1.0-service.rc \
     vendor/motorola/roadstr/proprietary/system_ext/etc/init/motorola.hardware.tcmdaidl-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/motorola.hardware.tcmdaidl-service.rc \
     vendor/motorola/roadstr/proprietary/system_ext/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.dolby.daxservice.xml \
@@ -268,6 +283,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/roadstr/proprietary/vendor/bin/hw/vendor.dolby.media.c2-default-service-dax:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.media.c2-default-service-dax
 
 PRODUCT_PACKAGES += \
+    MotCamera5 \
+    MotoSettingsProviderOverlayDPPCamera \
+    com.motorola.motosignature \
+    moto-core_services \
+    moto-settings \
     com.motorola.hardware.camera.desktop \
     com.motorola.hardware.display.panel-service.xml \
     motorola.hardware.fdr.service.xml \
