@@ -10,6 +10,32 @@ soong_namespace {
 }
 
 android_app_import {
+    name: "CarrierSettings",
+    owner: "motorola",
+    apk: "proprietary/product/priv-app/CarrierSettings/CarrierSettings.apk",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "CarrierSettingsExt",
+    owner: "motorola",
+    apk: "proprietary/product/priv-app/CarrierSettingsExt/CarrierSettingsExt.apk",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
     name: "MotCamera5",
     owner: "motorola",
     apk: "proprietary/product/priv-app/MotCamera5/MotCamera5.apk",

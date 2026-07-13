@@ -5,9 +5,18 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/roadstr
 
+# Keep the runtime carrier database complete and version-matched with stock.
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/motorola/roadstr/proprietary/product/etc/CarrierSettings,$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings)
+
 PRODUCT_COPY_FILES += \
     vendor/motorola/roadstr/proprietary/product/etc/MotoDesktopAppConfig/com.motorola.camera5.desktop-config.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/MotoDesktopAppConfig/com.motorola.camera5.desktop-config.xml \
+    vendor/motorola/roadstr/proprietary/product/etc/default-permissions/default-permissions-com.motorola.carriersettingsext.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-com.motorola.carriersettingsext.xml \
+    vendor/motorola/roadstr/proprietary/product/etc/enable-disable-packages/enable-disable-com.motorola.carriersettingsext.unlock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/enable-disable-packages/enable-disable-com.motorola.carriersettingsext.unlock.xml \
     vendor/motorola/roadstr/proprietary/product/etc/init/init.motcamera5.lens.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.motcamera5.lens.rc \
+    vendor/motorola/roadstr/proprietary/product/etc/motorola/bgintents/com.motorola.carriersettingsext.bgintents.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/motorola/bgintents/com.motorola.carriersettingsext.bgintents.xml \
+    vendor/motorola/roadstr/proprietary/product/etc/permissions/carriersettings.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/carriersettings.xml \
+    vendor/motorola/roadstr/proprietary/product/etc/permissions/privapp-permissions-com.motorola.carriersettingsext.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.carriersettingsext.xml \
     vendor/motorola/roadstr/proprietary/product/etc/permissions/com.motorola.camera5.adobe_scan.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera5.adobe_scan.xml \
     vendor/motorola/roadstr/proprietary/product/etc/permissions/com.motorola.camera5.lens.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera5.lens.xml \
     vendor/motorola/roadstr/proprietary/product/etc/permissions/com.motorola.camera5.roadstr.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera5.roadstr.xml \
@@ -15,6 +24,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/roadstr/proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/deviceowner-configuration-com.motorola.camera5.xml \
     vendor/motorola/roadstr/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera5.xml \
     vendor/motorola/roadstr/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera5.xml \
+    vendor/motorola/roadstr/proprietary/product/etc/sysconfig/carriersettings.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/carriersettings.xml \
+    vendor/motorola/roadstr/proprietary/product/etc/sysconfig/com.motorola.carriersettingsext.powersave.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/com.motorola.carriersettingsext.powersave.xml \
+    vendor/motorola/roadstr/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.carriersettingsext.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.carriersettingsext.xml \
     vendor/motorola/roadstr/proprietary/product/etc/sysconfig/initial-package-stopped-states-com.motorola.camera5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/initial-package-stopped-states-com.motorola.camera5.xml \
     vendor/motorola/roadstr/proprietary/product/media/audio/ui/camera_click.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/camera_click.ogg \
     vendor/motorola/roadstr/proprietary/product/media/audio/ui/camera_focus.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/camera_focus.ogg \
@@ -283,6 +295,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/roadstr/proprietary/vendor/bin/hw/vendor.dolby.media.c2-default-service-dax:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.media.c2-default-service-dax
 
 PRODUCT_PACKAGES += \
+    CarrierSettings \
+    CarrierSettingsExt \
     MotCamera5 \
     MotoSettingsProviderOverlayDPPCamera \
     com.motorola.motosignature \
