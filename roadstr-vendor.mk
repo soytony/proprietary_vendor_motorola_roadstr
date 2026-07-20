@@ -14,8 +14,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/roadstr/proprietary/product/etc/default-permissions/default-permissions-com.motorola.carriersettingsext.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-com.motorola.carriersettingsext.xml \
     vendor/motorola/roadstr/proprietary/product/etc/enable-disable-packages/enable-disable-com.motorola.carriersettingsext.unlock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/enable-disable-packages/enable-disable-com.motorola.carriersettingsext.unlock.xml \
     vendor/motorola/roadstr/proprietary/product/etc/init/init.motcamera5.lens.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.motcamera5.lens.rc \
+    vendor/motorola/roadstr/proprietary/product/etc/motorola/bgintents/com.baidu.map.location.bgintents.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/motorola/bgintents/com.baidu.map.location.bgintents.xml \
     vendor/motorola/roadstr/proprietary/product/etc/motorola/bgintents/com.motorola.carriersettingsext.bgintents.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/motorola/bgintents/com.motorola.carriersettingsext.bgintents.xml \
     vendor/motorola/roadstr/proprietary/product/etc/permissions/carriersettings.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/carriersettings.xml \
+    vendor/motorola/roadstr/proprietary/product/etc/permissions/privapp-permissions-com.baidu.map.location.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.baidu.map.location.xml \
     vendor/motorola/roadstr/proprietary/product/etc/permissions/privapp-permissions-com.motorola.carriersettingsext.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.carriersettingsext.xml \
     vendor/motorola/roadstr/proprietary/product/etc/permissions/com.motorola.camera5.adobe_scan.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera5.adobe_scan.xml \
     vendor/motorola/roadstr/proprietary/product/etc/permissions/com.motorola.camera5.lens.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera5.lens.xml \
@@ -297,6 +299,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     CarrierSettings \
     CarrierSettingsExt \
+    BaiduNetworkLocation \
     MotCamera5 \
     MotoSettingsProviderOverlayDPPCamera \
     com.motorola.motosignature \
