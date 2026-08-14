@@ -52,6 +52,7 @@ android_app_import {
     name: "MotCamera5",
     owner: "motorola",
     apk: "proprietary/product/priv-app/MotCamera5/MotCamera5.apk",
+    overrides: ["Camera2"],
     preprocessed: true,
     presigned: true,
     dex_preopt: {
