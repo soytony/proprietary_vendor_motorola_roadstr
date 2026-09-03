@@ -1,5 +1,5 @@
 
-s27602Έ¬x,
+s27602δύ‰¬x,
 VFAL InternetvodafonewebBwebJwebH
 VFAL MMSvfalmmsBmmsJmmsZhttp://mmsc.vodafone.alb10.0.9.2j8080"»
 maxImageHeight

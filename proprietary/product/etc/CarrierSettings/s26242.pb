@@ -1,5 +1,5 @@
 
-s26242Έ¬
+s26242δύ‰¬
 Truphonetruphone.com"θ 
 allow_merging_rtt_calls_bool( 
 ignore_rtt_mode_setting_bool(

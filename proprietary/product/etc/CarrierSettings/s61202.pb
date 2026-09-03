@@ -1,5 +1,5 @@
 
-s61202Έ¬:8
+s61202δύ‰¬:8
 Moov Internet CImoov210.172.11.17:8080BwebJweb"Όχ
  carrier_certificate_string_array2Ò
 L2333f4065b9f054363ca63d1866cc168f45d641645b31131b14e173b9c922d15:co.sitic.pp

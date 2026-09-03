@@ -149,6 +149,18 @@
         },
         "default_ch3_raw":{"type": "flt", "ver": "0",
           "data": "935.0"
+        },
+        "default_ch0_scale":{"type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "default_ch1_scale":{"type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "default_ch2_scale":{"type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "default_ch3_scale":{"type": "flt", "ver": "0",
+          "data": "1.0"
         }
       },
       ".lux_coefs":{

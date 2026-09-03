@@ -1,5 +1,5 @@
 
-s42510Έ¬PN
+s42510δύ‰¬PN
 	3G Portaluwap.orange.co.ilZ"http://192.168.220.15/servlets/mmsj8080"Ϊ
 carrier_name_override_bool(
 carrier_name_stringPartner
