@@ -9,6 +9,9 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/motorola/roadstr/proprietary/product/etc/CarrierSettings,$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings)
 
+PRODUCT_PACKAGES += \
+    libcppbor_external_stock
+
 PRODUCT_COPY_FILES += \
     vendor/motorola/roadstr/proprietary/product/etc/MotoDesktopAppConfig/com.motorola.camera5.desktop-config.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/MotoDesktopAppConfig/com.motorola.camera5.desktop-config.xml \
     vendor/motorola/roadstr/proprietary/product/etc/default-permissions/default-permissions-com.motorola.carriersettingsext.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-com.motorola.carriersettingsext.xml \

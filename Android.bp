@@ -9,6 +9,19 @@ soong_namespace {
     ],
 }
 
+cc_prebuilt_library_shared {
+    name: "libcppbor_external_stock",
+    check_elf_files: false,
+    stem: "libcppbor_external",
+    overrides: ["libcppbor_external"],
+    owner: "motorola",
+    srcs: ["proprietary/vendor/lib64/libcppbor_external.so"],
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+    strip: { none: true },
+}
+
 android_app_import {
     name: "CarrierSettings",
     owner: "motorola",
