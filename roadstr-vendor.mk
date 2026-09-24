@@ -301,7 +301,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     CarrierSettings \
-    CarrierSettingsExt \
     BaiduNetworkLocation \
     MotCamera5 \
     MotoSettingsProviderOverlayDPPCamera \
