@@ -370,7 +370,6 @@ PRODUCT_PACKAGES += \
     motorola.hardware.camera.desktop@2.0 \
     motorola.hardware.tcmd@1.0 \
     android.hardware.biometrics.fingerprint@2.1-goodixservice \
-    com.motorola.hardware.biometric.fingerprint-V2-ndk \
     libarcsoft_distortion_correction \
     libarcsoft_portrait_distortion_correction \
     libarcsoft_qnnhtp \

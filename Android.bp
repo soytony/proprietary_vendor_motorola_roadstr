@@ -9,6 +9,18 @@ soong_namespace {
     ],
 }
 
+cc_prebuilt_library_shared {
+    name: "com.motorola.hardware.biometric.fingerprint-V2-ndk-moto",
+    owner: "motorola",
+    srcs: ["proprietary/vendor/lib64/com.motorola.hardware.biometric.fingerprint-V2-ndk-moto.so"],
+    compile_multilib: "64",
+    shared_libs: ["libbinder_ndk"],
+    strip: {
+        none: true,
+    },
+    soc_specific: true,
+}
+
 android_app_import {
     name: "CarrierSettings",
     owner: "motorola",
@@ -1185,25 +1197,6 @@ cc_prebuilt_binary {
         },
     },
     relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    check_elf_files: false,
-    name: "com.motorola.hardware.biometric.fingerprint-V2-ndk",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/com.motorola.hardware.biometric.fingerprint-V2-ndk.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
     prefer: true,
     soc_specific: true,
 }
